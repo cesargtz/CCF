@@ -63,7 +63,7 @@
 			autoplay:true,
 			animateOut: 'fadeOut',
 			autoplayTimeout:7000,
-			smartSpeed:1100,
+			smartSpeed:2100,
 			nav:true,
 			dots:false,
 			navText:['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
@@ -150,10 +150,10 @@
 			loop:true,
 			margin:0,
 			autoplay:true,
-			autoHeight:true,
+			autoHeight:false,
 			autoplayTimeout:8000,
 			smartSpeed:1100,
-			nav:false,
+			nav:true,
 			dots:true,
 			responsive:{
 				0:{
@@ -278,10 +278,11 @@
 
 		var shuffleInstance = new Shuffle(element, {
 		  itemSelector: '.item',
-		  buffer: 1,
+		  buffer: 0,
 		  easing: 'cubic-bezier(.42,.01,.57,1)',
 		  speed: 400,
 		  useTransforms: true,
+		  roundTransforms: true,
 		});
 		
 		//Shuffle Filter Nav
@@ -304,3 +305,15 @@
 })(jQuery); //jQuery
 
 
+document.addEventListener("DOMContentLoaded", function(event) {
+	const btns = document.querySelectorAll('.filter')
+	btns.forEach(function(e){
+		e.addEventListener('click',()=>{
+			if (e.innerHTML == 'All'){
+				document.querySelector('.background-hide').style.background = '#646363'
+			} else {
+				document.querySelector('.background-hide').style.background = '#FFFFFF'
+			}	
+		})
+	})
+})

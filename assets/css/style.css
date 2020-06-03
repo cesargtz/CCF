@@ -431,7 +431,7 @@ p {
   top: 7px;
   width: 6px;
   height: 6px;
-  background-color: #282828;
+  background-color: #03738C;
 }
 /********************BG-IMG********************/
 .bg_img {
@@ -441,7 +441,7 @@ p {
 }
 /********************BG-COLROS********************/
 .dark_area {
-  background-color: #282828;
+  background-color: #03738C;
 }
 .light_area {
   background-color: #f4f4f4;
@@ -452,7 +452,7 @@ p {
   z-index: 1;
 }
 .bg_overlay1:after {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   z-index: -1;
   content: "";
@@ -519,7 +519,7 @@ p {
   width: 17px;
   height: 17px;
   background-color: transparent;
-  border: 2px solid #282828;
+  border: 2px solid #03738C;
 }
 .sv_dots_nav .owl-dots .owl-dot.active {
   background-color: #F29F05;
@@ -562,7 +562,7 @@ p {
   width: 50px;
   height: 50px;
   border: 0px solid #F29F05!important;
-  background-color: #282828!important;
+  background-color: #03738C!important;
   color: #fff!important;
   transition: all 0.5s ease;
 }
@@ -619,7 +619,7 @@ p {
 /***************************************************/
 .main_header {
   padding: 25px 0;
-  background-color: #282828;
+  background-color: #03738C;
   z-index: 800;
   transition: all 1s ease;
 }
@@ -639,7 +639,7 @@ p {
   width: 100%;
 }
 .fixed {
-  background-color: #282828;
+  background-color: #03738C;
   padding: 16px 0;
   transition: all 1s ease;
 }
@@ -823,7 +823,7 @@ p {
   line-height: 1.4;
   border: none;
   outline: none;
-  background-color: #282828;
+  background-color: #03738C;
 }
 .main_nav_mobile .navbar_nav_over_wrapp {
   overflow-y: scroll;
@@ -859,7 +859,7 @@ p {
   color: #fff;
   height: 42px;
   text-align: center;
-  background-color: #282828;
+  background-color: #03738C;
 }
 .main_nav_mobile .has-child .sub_menu_btn i {
   transform: rotate(0);
@@ -871,7 +871,7 @@ p {
 }
 .main_nav_mobile .sub-menu {
   display: none;
-  background-color: #282828;
+  background-color: #03738C;
 }
 .main_nav_mobile .sub-menu a {
   color: #fff;
@@ -894,15 +894,16 @@ p {
 }
 /*slide background image*/
 /* background-image: url(../images/back1.4.jpg); */
+/* background-image: url(https://images.unsplash.com/photo-1540144965158-050c0b7769ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1951&q=80); */
+
 .item_mainslide_1 {
-  background-image: url(https://images.unsplash.com/photo-1540144965158-050c0b7769ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1951&q=80);
+  background-image: url(https://images.unsplash.com/photo-1564950782181-7909d0f5d9ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=2852&q=80);
   background-position: center top;
 }
 
 /* background-image: url(../images/back2.4.jpg); */
 .item_mainslide_2 {
- 
-  background-image: url(https://images.unsplash.com/photo-1543654542-58156d9a4e09?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+  background-image: url(../images/bt2.jpg);
   background-position: center bottom;
 }
 
@@ -910,7 +911,7 @@ p {
 /* background-image: url(https://images.unsplash.com/photo-1548598187-35e00175d911?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1568&q=80); */
 
 .item_mainslide_3 {
-  background-image: url(https://images.unsplash.com/photo-1550598052-a04a3ba16111?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-image: url(../images/bt1.jpg);
   background-position: center bottom;
 }
 /*END slide background image*/
@@ -933,7 +934,7 @@ p {
   margin-bottom: 27px;
 }
 .slider_big_title {
-  font-size: 55px;
+  font-size: 3.5em;
   line-height: 1;
   margin-bottom: 17px;
 }
@@ -1035,7 +1036,7 @@ p {
   color: #fff;
   box-sizing: border-box;
   padding: 30px 34px;
-  background-color: #282828;
+  background-color: #03738C;
   transition: all 0.5s ease;
 }
 .item_service_card .overlay a {
@@ -1070,7 +1071,7 @@ p {
   object-fit: cover;
 }
 .describe_service {
-  background-color: #282828;
+  background-color: #03738C;
   padding: 30px 34px;
   color: #fff;
   font-size: 16px;
@@ -1355,7 +1356,7 @@ form .filed_form textarea:-moz-placeholder {
 }
 .name_card_wrapper {
   padding: 30px 0;
-  background-color: #282828;
+  background-color: #03738C;
 }
 .name_card_wrapper .team_card_item_name {
   margin: 0;
@@ -1377,7 +1378,7 @@ form .filed_form textarea:-moz-placeholder {
   color: #fff;
   box-sizing: border-box;
   padding: 30px 34px;
-  background-color: #282828;
+  background-color: #03738C;
   transition: all 0.5s ease;
 }
 .team_card_item .short_text_team {
@@ -1420,7 +1421,7 @@ form .filed_form textarea:-moz-placeholder {
   font-size: 16px;
   color: #fff;
   box-sizing: border-box;
-  background-color: #282828;
+  background-color: #03738C;
 }
 .new_date {
   font-size: 14px;
@@ -1469,7 +1470,7 @@ form .filed_form textarea:-moz-placeholder {
 
 /* background-image: url(../images/sl1.jpg); */
 .pade_bg5 {
-  background-image: url(https://images.unsplash.com/photo-1548598187-35e00175d911?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1568&q=80);
+  background-image: url(../images/bi3.jpg);
 }
 
 .pade_bg6 {
@@ -1862,7 +1863,7 @@ form .filed_form textarea:-moz-placeholder {
 /*******************ABOUT PAGESOCIAL LINE********************/
 /***********************************************************/
 .social_list_section {
-  background-color: #282828;
+  background-color: #03738C;
   padding: 20px 0;
 }
 .social_list {
@@ -1882,7 +1883,7 @@ form .filed_form textarea:-moz-placeholder {
 /************************SUBSCRIBE LINE**********************/
 /***********************************************************/
 .subscribe_line {
-  background-color: #282828;
+  background-color: #03738C;
   padding: 30px 0;
 }
 .subscribe_title {
@@ -1959,4 +1960,8 @@ form .filed_form textarea:-moz-placeholder {
   margin: 0 3px;
   color: #000;
   font-size: 18px;
+}
+
+.background-hide{
+  background-color: #646363;
 }
