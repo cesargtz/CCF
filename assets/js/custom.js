@@ -324,14 +324,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var img = document.querySelectorAll(".myImg");
 	var modalImg = document.getElementById("img01");
 	var captionText = document.getElementById("caption");
-	img.forEach(function(e){
-		e.addEventListener('click',()=>{
-			modal.style.display = "block";
-			modalImg.src = e.src;
-			captionText.innerHTML = e.alt;
-		}) 
-	})
-
+	if (img){
+		img.forEach(function(e){
+			e.addEventListener('click',()=>{
+				modal.style.display = "block";
+				modalImg.src = e.src;
+				captionText.innerHTML = e.alt;
+			}) 
+		})
+	}
+	
 	// Get the <span> element that closes the modal
 	var span = document.getElementsByClassName("close")[0];
 
@@ -342,18 +344,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		}) 
 	}
 
-
-	document.getElementById("btnSendEmail").addEventListener('click',()=>{
-		Email.send({
-			Host : "smtp.elasticemail.com",
-			Username : "info@coppercanyonfurniture.com",
-			Password : "3DD15E63B91253A8B0379870242A61D0E372",
-			To : 'cesargtz@yecora.mx',
-			From : "info@coppercanyonfurniture.com",
-			Subject : "This is the subject",
-			Body : "And this is the body"
-		}).then(
-		  message => alert(message)
-		);
-	})
+	var sendEmail = document.getElementById("btnSendEmail")
+	if (sendEmail){
+		document.getElementById("btnSendEmail").addEventListener('click',()=>{
+			Email.send({
+				Host : "smtp.elasticemail.com",
+				Username : "info@coppercanyonfurniture.com",
+				Password : "3DD15E63B91253A8B0379870242A61D0E372",
+				To : 'cesargtz@yecora.mx',
+				From : "info@coppercanyonfurniture.com",
+				Subject : "This is the subject",
+				Body : "And this is the body"
+			}).then(
+			  message => alert(message)
+			);
+		})
+	}
 })
