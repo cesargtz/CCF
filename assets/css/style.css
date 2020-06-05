@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,400i,600,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,400i,600,700,700i|Roboto:wght@400;500;700&display=swap|Lobster&display=swap');
 @import '../libs/bootstrap-4.1.0/bootstrap.min.css';
 @import '../libs/jquery.magnific-popup/magnific-popup.css';
 @import '../libs/owlcarousel2-2.3.4/assets/owl.carousel.min.css';
@@ -178,7 +178,7 @@ img {
 }
 /*******************TYPOGRPHY*********************/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.48;
   font-weight: 400;
@@ -191,9 +191,10 @@ h4,
 h5,
 h6 {
   line-height: 1;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lobster', cursive;
   font-weight: 800;
 }
+/* font-family: 'Montserrat', sans-serif; */
 h1 {
   font-size: 60px;
 }
@@ -213,8 +214,8 @@ h6 {
   font-size: 18px;
 }
 strong {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 p {
   word-spacing: 1px;
@@ -281,8 +282,8 @@ p {
   font-size: 35px;
 }
 .sec-title strong {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 .sec-title .text {
   max-width: 650px;
@@ -353,9 +354,9 @@ p {
   padding: 10px 25px;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 500;
   border: none;
   color: #000;
   cursor: pointer;
@@ -660,8 +661,8 @@ p {
   padding: 0;
 }
 .top_nav_links .navbar-nav > li > a {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   color: #fff;
   font-size: 17px;
   text-transform: uppercase;
@@ -1080,7 +1081,7 @@ p {
   color: #fff;
   text-align: center;
   line-height: 1;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lobster', cursive;
   margin-bottom: 23px;
 }
 /***************************************************/
@@ -1174,8 +1175,8 @@ p {
   width: 50px;
   margin: 0 7px;
   font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   color: #000;
   line-height: 42px;
   box-sizing: border-box;
@@ -1250,7 +1251,7 @@ background-image: url(https://images.unsplash.com/photo-1548029334-8f300bd5ff4b?
   border-color: #F29F05;
 }
 .name_review {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lobster', cursive;
   line-height: 1;
   margin-bottom: 20px;
   color: #F29F05;
@@ -1288,7 +1289,7 @@ background-image: url(https://images.unsplash.com/photo-1548029334-8f300bd5ff4b?
   width: 100%;
   padding: 11px 20px;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #000;
   border: none;
   box-sizing: border-box;
@@ -1365,7 +1366,7 @@ form .filed_form textarea:-moz-placeholder {
 .team_card_item_name {
   text-align: center;
   margin-top: 27px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lobster', cursive;
   line-height: 1;
 }
 .team_card_item .overlay {
@@ -1434,7 +1435,7 @@ form .filed_form textarea:-moz-placeholder {
 }
 .new_name,
 .latest_news_carousel .item a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #F29F05;
 }
 .new_name a:hover,
@@ -1596,7 +1597,7 @@ form .filed_form textarea:-moz-placeholder {
 /***********************************************************/
 .news_page_category .name_new {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 8px;
 }
 .news_page_category .new_date {
@@ -1948,7 +1949,7 @@ form .filed_form textarea:-moz-placeholder {
   color: #000;
 }
 .main_footer .footer_block_title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #000;
   line-height: 1;
@@ -1998,7 +1999,6 @@ form .filed_form textarea:-moz-placeholder {
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
@@ -2011,10 +2011,11 @@ form .filed_form textarea:-moz-placeholder {
 
 /* Modal Content (Image) */
 .modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
+	margin: auto;
+	display: block;
+	width: 50%;
+	height: 90%;
+	object-fit: cover;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
