@@ -62,8 +62,8 @@
 			margin:0,
 			autoplay:true,
 			animateOut: 'fadeOut',
-			autoplayTimeout:7000,
-			smartSpeed:2100,
+			autoplayTimeout:9000,
+			smartSpeed:3100,
 			nav:true,
 			dots:false,
 			navText:['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
@@ -149,7 +149,7 @@
 		$('.reviews_carousel').owlCarousel({
 			loop:true,
 			margin:0,
-			autoplay:true,
+			autoplay:false,
 			autoHeight:false,
 			autoplayTimeout:8000,
 			smartSpeed:1100,
@@ -315,5 +315,45 @@ document.addEventListener("DOMContentLoaded", function(event) {
 				document.querySelector('.background-hide').style.background = '#FFFFFF'
 			}	
 		})
+	})
+	// modal
+	// Get the modal
+	var modal = document.getElementById("myModal");
+
+	// Get the image and insert it inside the modal - use its "alt" text as a caption
+	var img = document.querySelectorAll(".myImg");
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	img.forEach(function(e){
+		e.addEventListener('click',()=>{
+			modal.style.display = "block";
+			modalImg.src = e.src;
+			captionText.innerHTML = e.alt;
+		}) 
+	})
+
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
+
+	// When the user clicks on <span> (x), close the modal
+	if (span){
+		span.addEventListener('click',()=>{
+			modal.style.display = "none";
+		}) 
+	}
+
+
+	document.getElementById("btnSendEmail").addEventListener('click',()=>{
+		Email.send({
+			Host : "smtp.elasticemail.com",
+			Username : "info@coppercanyonfurniture.com",
+			Password : "3DD15E63B91253A8B0379870242A61D0E372",
+			To : 'cesargtz@yecora.mx',
+			From : "info@coppercanyonfurniture.com",
+			Subject : "This is the subject",
+			Body : "And this is the body"
+		}).then(
+		  message => alert(message)
+		);
 	})
 })
