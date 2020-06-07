@@ -191,7 +191,7 @@ h4,
 h5,
 h6 {
   line-height: 1;
-  font-family: 'Lobster', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
 }
 /* font-family: 'Montserrat', sans-serif; */
@@ -1081,7 +1081,7 @@ p {
   color: #fff;
   text-align: center;
   line-height: 1;
-  font-family: 'Lobster', cursive;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 23px;
 }
 /***************************************************/
@@ -1251,7 +1251,7 @@ background-image: url(https://images.unsplash.com/photo-1548029334-8f300bd5ff4b?
   border-color: #F29F05;
 }
 .name_review {
-  font-family: 'Lobster', cursive;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1;
   margin-bottom: 20px;
   color: #F29F05;
@@ -1366,7 +1366,7 @@ form .filed_form textarea:-moz-placeholder {
 .team_card_item_name {
   text-align: center;
   margin-top: 27px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1;
 }
 .team_card_item .overlay {
