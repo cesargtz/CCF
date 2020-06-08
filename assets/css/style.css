@@ -899,13 +899,13 @@ p {
 
 /* background-image: url(https://images.unsplash.com/photo-1564950782181-7909d0f5d9ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=2852&q=80); */
 .item_mainslide_1 {
-  background-image: url(../images/gallery/photo7.jpeg);
+  background-image: url(../images/headers/photo7.jpg);
   /* background-position: center top; */
 }
 
 /* background-image: url(../images/bt2.jpg); */
 .item_mainslide_2 {
-  background-image: url(../images/gallery/photo17.jpeg);
+  background-image: url(../images/headers/photo13.jpg);
   /* background-position: center bottom; */
 }
 
@@ -914,7 +914,8 @@ p {
 
 /* background-image: url(../images/f15.jpg); */
 .item_mainslide_3 {
-  background-image: url(../images/gallery/photo9.jpeg);
+  background-image: url(../images/headers/photo20.jpg);
+  background-position: 0px -115px;
   /* background-position: center bottom; */
 }
 /*END slide background image*/
