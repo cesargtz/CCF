@@ -60,7 +60,7 @@
 		$('.main_b_slider').owlCarousel({
 			loop:true,
 			margin:0,
-			autoplay:true,
+			autoplay:false,
 			animateOut: 'fadeOut',
 			autoplayTimeout:20000,
 			nav:true,

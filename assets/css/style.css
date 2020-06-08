@@ -905,7 +905,7 @@ p {
 
 /* background-image: url(../images/bt2.jpg); */
 .item_mainslide_2 {
-  background-image: url(../images/headers/photo13.jpg);
+  background-image: url(../images/headers/ba1.jpg);
   /* background-position: center bottom; */
 }
 
@@ -914,9 +914,11 @@ p {
 
 /* background-image: url(../images/f15.jpg); */
 .item_mainslide_3 {
-  background-image: url(../images/headers/photo20.jpg);
-  background-position: 0px -115px;
-  /* background-position: center bottom; */
+  background-image: url(../images/headers/photo9.jpg);
+  background-position: 0px -200px;
+  /* object-fit: cover; */
+  /* background-position: 0px -115px; */
+  /* background-position: 0px 50px; */
 }
 /*END slide background image*/
 .main_big_slider .psev_table {
