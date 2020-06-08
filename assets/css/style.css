@@ -920,6 +920,17 @@ p {
   /* background-position: 0px -115px; */
   /* background-position: 0px 50px; */
 }
+
+@media only screen and (max-width: 415px){
+  .item_mainslide_2 {
+    background-position: 0px 0px;
+  }
+  .item_mainslide_3 {
+    background-position: 0px 0px;
+  }
+}
+
+
 /*END slide background image*/
 .main_big_slider .psev_table {
   background-repeat: no-repeat;
