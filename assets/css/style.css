@@ -897,23 +897,25 @@ p {
 /* background-image: url(../images/back1.4.jpg); */
 /* background-image: url(https://images.unsplash.com/photo-1540144965158-050c0b7769ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1951&q=80); */
 
+/* background-image: url(https://images.unsplash.com/photo-1564950782181-7909d0f5d9ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=2852&q=80); */
 .item_mainslide_1 {
-  background-image: url(https://images.unsplash.com/photo-1564950782181-7909d0f5d9ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=2852&q=80);
-  background-position: center top;
+  background-image: url(../images/gallery/photo7.jpeg);
+  /* background-position: center top; */
 }
 
-/* background-image: url(../images/back2.4.jpg); */
+/* background-image: url(../images/bt2.jpg); */
 .item_mainslide_2 {
-  background-image: url(../images/bt2.jpg);
-  background-position: center bottom;
+  background-image: url(../images/gallery/photo17.jpeg);
+  /* background-position: center bottom; */
 }
 
 /* background-image: url(../images/back3.3.jpg); */
 /* background-image: url(https://images.unsplash.com/photo-1548598187-35e00175d911?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1568&q=80); */
 
+/* background-image: url(../images/f15.jpg); */
 .item_mainslide_3 {
-  background-image: url(../images/f15.jpg);
-  background-position: center bottom;
+  background-image: url(../images/gallery/photo9.jpeg);
+  /* background-position: center bottom; */
 }
 /*END slide background image*/
 .main_big_slider .psev_table {
